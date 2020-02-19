@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_movie">
+
+    <fragment
+        android:id="@+id/navigation_movie"
+        android:name="com.example.submission4.ui.Movie.MovieFragment"
+        android:label="@string/title_Movie"
+        tools:layout="@layout/fragment_movie" >
+        <action
+            android:id="@+id/action_navigation_movie_to_navigation_tvshow"
+            app:destination="@id/navigation_tvshow" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_tvshow"
+        android:name="com.example.submission4.ui.Tvshow.TvshowFragment"
+        android:label="@string/title_Tvshow"
+        tools:layout="@layout/fragment_tvshow">
+        <action
+            android:id="@+id/action_navigation_tvshow_to_navigation_favorite"
+            app:destination="@id/navigation_favorite" />
+    </fragment>
+
+    <activity
+        android:id="@+id/navigation_favorite"
+        android:name="com.example.submission4.ui.Favorite.FavoriteActivity"
+        android:label="@string/title_Favorite"
+        tools:layout="@layout/activity_favorite">
+<!--        <action-->
+<!--            android:id="@+id/navigation_favorite_to_navigation_search"-->
+<!--            app:destination="@id/navigation_search" />-->
+    </activity>
+
+    <activity
+        android:id="@+id/navigation_search"
+        android:name="com.example.submission4.ui.search.SearchActivity"
+        android:label="@string/title_search"
+        tools:layout="@layout/activity_search">
+    </activity>
+
+    <fragment
+        android:id="@+id/navigation_alarm"
+        android:name="com.example.submission4.ui.Alarm.AlarmFragment"
+        android:label="Settings Alarm"
+        tools:layout="@layout/fragment_alarm">
+
+    </fragment>
+
+</navigation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_Movie">Film</string>
+    <string name="title_Tvshow">Acara Tv</string>
+    <string name="title_Favorite">Kesukaan</string>
+    <string name="title_search">Cari</string>
+    <string name="title_alarm">Alarm</string>
+    <string name="Overview">Simpulan Singkat :</string>
+    <string name="ReleaseDate">Tanggal Rilis :</string>
+    <string name="add_favorite">Tambahkan Ke Kesukaan</string>
+    <string name="del_favorite">Hapus Dari Kesukaan</string>
+    <string name="success_insert">Berhasil Menambahkan Ke Kesukaan</string>
+    <string name="failde_insert">Gagal Menambahkan Ke Kesukaan</string>
+    <string name="hasbeen_insert_Movie">Film Telah Di Tambahkan Ke Kesukaan</string>
+    <string name="hasbeen_insert_Tv">Acara Tv Telah Di Tambahkan Ke Kesukaan</string>
+    <string name="success_delete">Berhasil Menghapus Dari Kesukaan</string>
+    <string name="fail_delete">Gagal Menghapus Dari Kesukaan</string>
+    <string name="hasbeen_delete">Telah Menghapus Dari Kesukaan</string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="snackbar_message">Tidak Ada Kesukaan Yang Di Tambahkan</string>
+
+
+    <string name="search_your_movie">Cari Film Mu</string>
+    <string name="search_your_tv_show">Cari Acara Tv Mu</string>
+    <string name="appwidget_text">Widget Kesukaan</string>
+    <string name="add_widget">Tambah Widger</string>
+    <string name="add_your_favorite">Tambah Favorit Mu</string>
+    <string name="daily_repeat">Hei Katalog Film Menunggu Mu</string>
+    <string name="release_message">&#160;Rilis !!! ,Cek Sekarang</string>
+
+    <string name="cancel_alarmtoday">Today Alarm dibatalkan</string>
+    <string name="cancel_alarmdaily">Daily Alarm Dibatalkan</string>
+    <string name="active_alarmtoday">Today Alarm Aktif</string>
+    <string name="active_alarmdaily">Daily Alarm Aktif</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="return_to_the_application_every_7_hours">kembali ke aplikasi setiap jam 7</string>
+    <string name="today_reminder">Pengingat Hari Ini</string>
+    <string name="film_reminder_that_was_released_today">pengingat film yang dirilis hari ini</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="10dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativelayoutMovies"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imagephotomovie"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/text_titlemovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@id/imagephotomovie"
+            android:text="Title Movie"
+            android:textSize="18sp"
+
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_descriptionmovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_titlemovie"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/imagephotomovie"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:layout_toEndOf="@id/imagephotomovie"
+            android:text="Description Movie"/>
+
+        <TextView
+            android:id="@+id/text_release"
+            android:layout_width="0dp"
+            android:layout_height="0dp"></TextView>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

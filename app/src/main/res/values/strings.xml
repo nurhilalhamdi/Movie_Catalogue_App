@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name" translatable="false">Submission4</string>
+    <string name="title_Movie">Movie</string>
+    <string name="title_Tvshow">Tv show</string>
+    <string name="title_Favorite">Favorite</string>
+    <string name="title_search">Search</string>
+    <string name="title_alarm">Alarm</string>
+    <string name="Overview">Overview :</string>
+    <string name="ReleaseDate">Release Date :</string>
+    <string name="add_favorite">Added To favorite</string>
+    <string name="del_favorite">Delete From favorite</string>
+    <string name="success_insert">Successfully Added To Favorite</string>
+    <string name="failde_insert">Failed Added To Favorite</string>
+    <string name="success_delete">Successfully Delete From Favorite</string>
+    <string name="fail_delete">Failed Delete From Favorite</string>
+    <string name="hasbeen_delete">Has been Delete From Favorite</string>
+    <string name="hasbeen_insert_Movie">Movie Hasbeen Added To Favorite</string>
+    <string name="hasbeen_insert_Tv">Tv Show Hasbeen Added To Favorite</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="snackbar_message">Nothing add to Favorite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="search_your_movie">Search Your Movie</string>
+    <string name="search_your_tv_show">Search Your Tv Show</string>
+    <string name="appwidget_text">Favorite Widger</string>
+    <string name="add_widget">Add widget</string>
+    <string name="add_your_favorite">Add Your Favorite</string>
+    <string name="daily_repeat">Hey Movie Catalogue Waiting You</string>
+    <string name="release_message">&#160;Release !!! ,Check it now</string>
+    <string name="cancel_alarmtoday">Today Alarm Canceled</string>
+    <string name="cancel_alarmdaily">Daily Alarm Canceled</string>
+    <string name="active_alarmtoday">Today Alarm Active</string>
+    <string name="active_alarmdaily">Daily Alarm Active</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="return_to_the_application_every_7_hours">return to the application every 7 hours</string>
+    <string name="today_reminder">Today Reminder</string>
+    <string name="film_reminder_that_was_released_today">film reminder that was released today</string>
+
+</resources>

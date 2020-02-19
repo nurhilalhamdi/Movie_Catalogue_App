@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FinalProvider</string>
+    <string name="title_Movie">Movie</string>
+    <string name="title_Tvshow">Tv show</string>
+    <string name="title_Favorite">Favorite</string>
+    <string name="Overview">Overview :</string>
+    <string name="ReleaseDate">Release Date :</string>
+    <string name="add_favorite">Added To favorite</string>
+    <string name="del_favorite">Delete From favorite</string>
+    <string name="success_insert">Successfully Added To Favorite</string>
+    <string name="failde_insert">Failed Added To Favorite</string>
+    <string name="success_delete">Successfully Delete From Favorite</string>
+    <string name="fail_delete">Failed Delete From Favorite</string>
+    <string name="hasbeen_delete">Has been Delete From Favorite</string>
+    <string name="hasbeen_insert_Movie">Movie Hasbeen Added To Favorite</string>
+    <string name="hasbeen_insert_Tv">Tv Show Hasbeen Added To Favorite</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="snackbar_message">Nothing add to Favorite</string>
+</resources>
